@@ -1,0 +1,669 @@
+.page428-429 {
+  line-height: 1.4;
+  color: var(--dark-grey);
+}
+
+.essential-comp .icon-sec {
+  width: 3rem;
+
+}
+
+.essential-comp .content-sec {
+  width: fit-content;
+}
+
+.page428::before {
+  content: '';
+  background: url(../assets/page428-bg.webp);
+  background-repeat: repeat;
+  background-position: -2rem -20rem;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+.page428 footer .page-number {
+  color: var(--white);
+}
+
+.parent-container article {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.page428 {
+  background-image: url(../assets/page428-bg.webp);
+  background-repeat: repeat;
+  background-position: top;
+  background-size: contain;
+  z-index: -1;
+}
+
+.page428 .top-area {
+  display: flex;
+}
+
+.essential-comp {
+  width: 80%;
+}
+
+.noteComp .iconBox {
+  flex-basis: 2rem;
+}
+
+.page428 .top-area .left-col {
+  width: 100%;
+  max-width: 13rem;
+  min-height: 19rem;
+  background: url(../assets/page428-shape.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: var(--white);
+}
+
+.page428 .top-area .left-col .no-box {
+  margin-left: auto;
+  width: max-content;
+  margin-right: 6.5rem;
+  line-height: 1
+}
+
+.page428 .top-area .left-col .top-txt {
+  margin-top: 2.5rem;
+  margin-left: auto;
+  width: max-content;
+  margin-right: 7rem;
+}
+
+.page428 .top-area .right-col {
+  margin-top: 2rem;
+}
+
+.page428 .top-area .right-col h2 {
+  line-height: 1;
+  color: var(--blue-flag);
+  margin-bottom: 1rem;
+  width: 98%;
+}
+
+.page428 .img-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.page428 .img-box img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.noteComp {
+  position: absolute;
+  bottom: 5rem;
+  width: 19rem !important;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.noteComp .contentBox {
+  background: rgb(255 255 255 / 86%) !important;
+}
+
+.noteComp .contentBox.alpha h2 {
+  color: var(--black);
+}
+
+.noteComp .contentBox.alpha p {
+  color: var(--black);
+}
+
+/* page429 css */
+.page429 {
+  height: 100%;
+  /* background: url(../assets/page429-bg.webp); */
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 12rem 100%;
+}
+
+.right-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 31.7%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.right-bg img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.page428 .left-page-content {
+  padding: 0rem 0.8rem 0 0;
+
+}
+
+.page429 .right-page-content {
+  padding-left: 8.7rem;
+  padding-top: 0;
+
+}
+
+.page429 .right-top {
+  background: url(../assets/page429-shape.webp) 0 0 no-repeat;
+  background-size: 50% auto;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  background-position: top right;
+}
+
+.page429 .right-top .top-row {
+  display: flex;
+}
+
+.page429 .right-top .top-row .left-col {
+  flex-basis: 17rem;
+  flex-grow: 1;
+  padding-left: 0;
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+
+.page429 .right-top .top-row .right-col {
+  flex-basis: 11rem;
+  flex-grow: 1;
+  margin-right: 2rem;
+  margin-top: -2rem;
+}
+
+.page429 .right-top .right-col img {
+  width: 100%;
+}
+
+.page429 .content-box h2 {
+  color: var(--blue-flag);
+}
+
+.page429 .bottom-row {
+  padding-left: 2.8rem;
+  margin-top: -5rem;
+}
+
+.content-area {
+  width: 52%;
+}
+
+.content-area.w90 {
+  width: 90%;
+}
+
+.page429 .heading-pad {
+  padding-top: 1.5rem;
+}
+
+.right-bottom {
+  padding-right: 2rem;
+  padding-left: 2.7rem;
+  padding-bottom: 2rem;
+}
+
+.right-bottom .unit-sec h2 {
+  border-bottom: 0.13rem solid var(--blue-flag);
+  color: var(--blue-flag);
+  padding-bottom: 0.3rem;
+}
+
+.right-bottom .unit-sec ul {
+  margin: 0;
+  padding: 0;
+  column-count: 1;
+  /* margin-top: 0.7rem; */
+}
+
+.right-bottom .unit-sec ul li {
+  list-style: none;
+  color: var(--dark-grey);
+  margin-bottom: 0.7rem;
+}
+
+.right-bottom .unit-sec ul li h3 {
+  color: var(--black);
+  font-size: var(--font-11pt-doublepage);
+  font-weight: bold;
+}
+
+.right-bottom .unit-sec ul li ul {
+  margin: 0 0 0 1rem;
+  padding: 0;
+  column-count: 1;
+}
+
+.right-bottom .unit-sec ul li ul li {
+  list-style: disc;
+  color: var(--dark-grey);
+  margin-bottom: 0.3rem;
+}
+
+.font-size-1_6 .page429 .bottom-row {
+  margin-top: -2rem;
+}
+
+.font-size-1_8 .page429 .bottom-row {
+  margin-top: 1rem;
+}
+
+.font-size-1_6 .page428 .top-area .right-col h2 {
+  font-size: var(--font-32pt-doublepage);
+}
+
+.font-size-1_6 .content-area {
+  width: 57%;
+}
+
+.font-size-1_8 .content-area {
+  width: 78%;
+}
+
+.font-size-1_8 .right-bg img {
+  height: 100%;
+}
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+  .page428 .top-area {
+    flex-direction: column;
+  }
+
+  .page429 .right-top {
+    padding-top: 3rem;
+  }
+
+  .page428 .top-area .left-col {
+    width: 100%;
+    max-width: 10rem;
+    min-height: 17rem;
+  }
+
+  .page428 .top-area .left-col .no-box {
+    margin-right: 5rem;
+  }
+
+  .page428 .top-area .left-col .top-txt {
+    margin-right: 5.5rem;
+    margin-top: 1.2rem;
+  }
+
+  .page428 .top-area .right-col {
+    margin-top: -1.7rem;
+    margin-left: 2rem;
+  }
+
+  .page428 .top-area .right-col h2 span,
+  .page428 .top-area .right-col h2 {
+    font-size: var(--font-22pt-doublepage);
+  }
+
+  .essential-comp {
+    max-width: 91%;
+    width: 96%;
+  }
+
+  .noteComp {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    top: 1rem;
+    max-width: fit-content;
+    box-sizing: border-box;
+    width: fit-content !important;
+    margin: 0 2rem;
+  }
+
+  .noteComp .contentBox.alpha h2,
+  .noteComp .contentBox.alpha p {
+    color: var(--black);
+  }
+
+  .page429 {
+    background-image: none;
+  }
+
+  .page429 .right-page-content {
+    padding-left: 1rem;
+    padding-right: 0;
+    padding-top: 0;
+  }
+
+  .left-page-content {
+    padding: 1rem;
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+  .page429 .right-top .top-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page429 .right-top .top-row .left-col {
+    flex: auto;
+    padding-right: 1rem;
+  }
+
+  .page429 .right-top .top-row .right-col {
+    margin-top: 1rem;
+    flex: auto;
+    margin-left: 2.7rem;
+  }
+
+  .page429 .bottom-row {
+    margin-top: 1rem;
+    padding-right: 1rem;
+  }
+
+  .right-bottom .unit-sec ul {
+    column-count: 1;
+  }
+
+  .unordered-list li {
+    flex-basis: 100%;
+  }
+
+  .content-area {
+    width: 100%;
+  }
+
+  .right-bg {
+    display: none;
+  }
+
+  .right-bottom {
+    padding-bottom: 0rem;
+  }
+
+  .font-size-1_375 .page428 .top-area .right-col h2 span,
+  .font-size-1_375 .page428 .top-area .right-col h2 {
+    font-size: var(--font-18pt-doublepage)
+  }
+
+}
+
+/* Ipad devices (above 577px and below 768px)*/
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .page428 .top-area .left-col {
+    width: 100%;
+    max-width: 14rem;
+    background-size: 100% 100%;
+  }
+
+  .page428 .top-area .left-col .top-txt {
+    margin-right: 3.5rem;
+    margin-top: 1.2rem;
+  }
+
+  .page428 .top-area .left-col {
+    max-width: 8rem;
+    background-size: 100% 100%;
+    min-height: 13rem;
+    height: 100%;
+  }
+
+  .page428 .top-area .left-col .no-box {
+    margin-top: 0rem;
+    margin-left: auto;
+    width: max-content;
+    margin-right: 4rem;
+    padding-bottom: 2rem;
+    font-size: 4.5rem;
+  }
+
+  .font-size-1_25 .page428 .top-area .right-col h2 {
+    font-size: var(--font-22pt-doublepage);
+  }
+
+  .font-size-1_125 .page429 .bottom-row {
+    margin-top: -3rem;
+  }
+
+  .font-size-1_25 .page429 .bottom-row {
+    margin-top: 0rem;
+  }
+
+  .font-size-0_875 .page429 .bottom-row {
+    margin-top: -12rem;
+  }
+
+  .font-size-0_75 .page429 .bottom-row {
+    margin-top: -17rem;
+  }
+
+  .font-size-1_375 .page429 .bottom-row {
+    margin-top: 1rem;
+  }
+
+  .font-size-1_5 .page429 .bottom-row {
+    margin-top: 1rem;
+  }
+
+  .page428 .top-area .left-col {
+    max-width: 8rem;
+    background-size: 100% 100%;
+    min-height: 13rem;
+    height: 100%;
+  }
+
+  .font-size-1_125 .page429 .content-area,
+  .font-size-1_25 .page429 .content-area,
+  .font-size-1_375 .page429 .content-area,
+  .font-size-1_5 .page429 .content-area {
+    width: 98%;
+  }
+
+  .font-size-1_125 .page429 .right-bottom .unit-sec ul,
+  .font-size-1_25 .page429 .right-bottom .unit-sec ul,
+  .font-size-1_375 .page429 .right-bottom .unit-sec ul,
+  .font-size-1_5 .page429 .right-bottom .unit-sec ul {
+    column-count: 1;
+  }
+
+  .right-bg img {
+    height: 100%;
+  }
+
+  .page429 .right-page-content {
+    padding-left: 7.5rem;
+  }
+
+  .content-area {
+    width: 66%;
+  }
+
+  .page429 .content-area p {
+    width: 64%;
+  }
+
+  .page429 .content-area.w90 p {
+    width: fit-content;
+  }
+
+  .font-size-0_875 .content-area {
+    width: 57%;
+  }
+
+  .font-size-0_75 .content-area {
+    width: 56%;
+  }
+
+  .font-size-0_875 .page429 .content-area p {
+    width: 86%;
+  }
+
+  .font-size-1_125 .noteComp {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content !important;
+  }
+}
+
+/* Ipad devices (above 577px and below 992px) */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .page428 .top-area .right-col h2 {
+    font-size: var(--font-41pt-doublepage);
+  }
+
+  .font-size-0_875 .page428 .img-box img {
+    height: auto;
+    bottom: -12rem;
+  }
+}
+
+/* Ipad devices (above 769px and below 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .page428 .img-box img {
+    height: auto;
+  }
+
+  .page429 .right-page-content {
+    padding-left: 7rem;
+  }
+
+  /* .font-size-1_25 .page428 .img-box img {
+    height: 100%;
+  } */
+
+  .page428 .top-area .left-col {
+    background-size: 95% 80%;
+  }
+
+  .font-size-1_125 .page429 .bottom-row {
+    margin-top: -3rem;
+  }
+
+  .font-size-1_25 .page429 .bottom-row {
+    margin-top: -1rem;
+  }
+
+  .font-size-1_375 .page429 .bottom-row {
+    margin-top: 1rem;
+  }
+
+  .font-size-1_5 .page429 .bottom-row {
+    margin-top: 1rem;
+  }
+
+  .font-size-1_125 .page429 .content-area,
+  .font-size-1_25 .page429 .content-area,
+  .font-size-1_375 .page429 .content-area,
+  .font-size-1_5 .page429 .content-area {
+    width: 98%;
+  }
+
+  .page429 .right-top .top-row .right-col {
+    flex-basis: 4rem;
+    flex-grow: 1;
+    margin-right: 2rem;
+    margin-top: -2rem;
+    padding-bottom: 2rem;
+  }
+
+  .page428 .top-area .left-col .no-box {
+    margin-top: 4rem;
+    margin-left: 3rem;
+    width: max-content;
+    margin-right: 5rem;
+  }
+
+  .font-size-1_125 .page428 .top-area .right-col h2 span,
+  .font-size-1_125 .page428 .top-area .right-col h2 {
+    font-size: var(--font-22pt-doublepage);
+  }
+
+  .right-bg {
+    width: 22.7%;
+  }
+
+  .right-bg img {
+    height: 100%
+  }
+
+  .font-size-1.font-size-1_125 .right-bottom .unit-sec ul {
+    column-count: 1;
+  }
+
+  .page428 .top-area .left-col {
+    background-size: 95% 100%;
+  }
+
+  .page428 .top-area .left-col .no-box {
+    margin-left: 2rem;
+    margin-top: 0;
+  }
+
+  .font-size-1_125 .noteComp {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content !important;
+  }
+
+  .font-size-1_125 .page429 .right-top .top-row .left-col {
+    flex-basis: 6rem;
+    padding-right: 0;
+  }
+}
+
+/* Desktop devices (992px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .page429 .bottom-row {
+    margin-top: 1rem;
+  }
+
+  .page429 .bottom-row .content-area {
+    width: 90%;
+  }
+
+  .font-size-1_2 .page429 .bottom-row .content-area,
+  .font-size-1_4 .page429 .bottom-row .content-area,
+  .font-size-1_6 .page429 .bottom-row .content-area {
+    width: 51%;
+  }
+
+  .font-size-1_8 .page429 .bottom-row .content-area {
+    width: 90%;
+  }
+
+  .font-size-1_2 .page429 .right-top .top-row .right-col {
+    flex-basis: 6rem;
+    margin-bottom: -13rem;
+  }
+
+  .font-size-1_4 .page429 .right-top .top-row .right-col {
+    margin-bottom: -8rem;
+  }
+
+  .font-size-1_6 .page429 .right-top .top-row .right-col {
+    margin-bottom: -3rem;
+  }
+
+  .page428 .top-area .right-col h2 span,
+  .page428 .top-area .right-col h2 {
+    font-size: var(--font-32pt-doublepage);
+  }
+
+  .font-size-0_8 .page429 .bottom-row {
+    margin-top: -1rem;
+  }
+}

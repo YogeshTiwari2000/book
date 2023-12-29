@@ -1,0 +1,441 @@
+.page496-427 {
+  line-height: 1.5;
+  color: var(--dark-grey);
+}
+
+.left-page-content .custom-row .sideBar {
+  flex-basis: 41%;
+}
+
+.right-page-border {
+  padding-top: 0;
+}
+
+.txtRed {
+  color: var(--flame-red);
+}
+
+.checklist-box .ol-list li .subList {
+  width: 100%;
+  padding-left: 1.3rem;
+}
+
+.checklist-box-1 {
+  /* word-break: break-all; */
+  margin: 3rem 0.5rem 0rem 1rem;
+
+}
+
+
+.checklist-box-2 {
+
+  margin: 4rem 0.5rem 1rem 1rem;
+
+}
+
+.page496 .para-text-1 {
+  flex-basis: 3rem;
+}
+
+.page496 ul {
+  padding-left: 2rem;
+  margin: 0.5rem 0;
+}
+
+.page496 ul li {
+  padding-bottom: 0.5rem
+}
+
+.page496 .para-text-2 {
+  flex-basis: 20rem;
+}
+
+.strick {
+  text-decoration: line-through;
+  text-decoration-color: var(--flame-red);
+  text-decoration-thickness: .125rem;
+
+}
+
+.page496 .pageHeader-Left {
+  background-color: var(--plum-purple);
+}
+
+.page497 .pageHeader-Left {
+  background-color: var(--guardsman-red);
+
+}
+
+.custom-row .col-left {
+  background-color: transparent !important;
+}
+
+.small-heading-icon-comp .heading-icon .svgIcon {
+  margin-top: 0;
+}
+
+.page496 .custom-grid .item-1,
+.custom-row .sideBar {
+  /* flex-basis: 30%; */
+  background-color: var(--cream);
+  position: relative;
+}
+
+.page496-427 .indentTextArea {
+  padding-left: 0.8rem;
+  padding-right: 2rem;
+  border-left: 2px solid var(--brown);
+  background-color: var(--desert-strom2);
+  padding-bottom: 0.5rem;
+}
+
+.page496 .indentTxtArea-Main-Container {
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  margin-left: -1rem;
+  box-shadow: 7px 7px 20px var(--box-shadow);
+  background-color: var(--iglu)
+}
+
+.page496 .left-page-content {
+  padding: 1.5rem 2rem 0 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.page496 .left-page-content .custom-row .col-left {
+  padding-left: 2.5rem;
+}
+
+.page496 .left-page-content .heading-box h2 {
+  padding: 0.2rem 0.4rem;
+  width: fit-content;
+  border: 2px solid var(--plum-purple);
+  color: var(--purple-passage);
+  margin-bottom: 0.5rem;
+}
+
+
+
+.page496 .left-page-content .sideBar .tipsArea {
+  margin-left: 0;
+  margin-right: 2rem;
+  position: absolute;
+  top: 13.5rem;
+}
+
+.page496 .left-page-content .sideBar .txt-box {
+  background-color: var(--white);
+  padding: 0.3rem 0.5rem;
+  color: var(--aquarium-green);
+  width: 65%;
+  margin-left: auto;
+  position: absolute;
+  bottom: 2rem;
+  right: 0;
+}
+
+.page497 .essential-comp {
+
+  width: 17rem;
+  border: solid var(--blue-flag);
+  background-color: var(--white);
+  margin-right: -10rem;
+  position: relative;
+  margin-left: 1rem;
+  float: right;
+  z-index: 2;
+}
+
+.page497 .ol-list {
+  margin: 0.4rem 0 0 1rem;
+
+}
+
+.page497 .sub-li-right {
+  border-bottom: 2px solid var(--carmine-brown);
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  margin-left: -0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-right: -0.5rem;
+  margin-bottom: 0.5rem;
+
+}
+
+.font-size-1_6 .left-page-content .custom-row .sideBar {
+  flex-basis: 58%;
+}
+
+
+
+/* page497 */
+.page497 .right-page-content {
+  padding: 1.5rem 0rem 0rem 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.page497 .right-page-content .custom-row {
+  height: 100%;
+}
+
+.page497 .table-container {
+  box-sizing: border-box;
+
+}
+
+.page497 .table-flex {
+  display: flex;
+  margin-right: -9rem;
+  z-index: 22;
+  padding-top: 1rem;
+}
+
+.page497 .table-left {
+  flex: 1;
+  background-color: var(--white);
+  border: .125rem solid var(--biscay-blue);
+}
+
+.page497 .table-right {
+  flex: 1;
+  background-color: var(--white);
+  border: .125rem solid var(--carmine-brown);
+  border-left: 0px solid transparent;
+}
+
+.page497 .table-left .main-title {
+  color: var(--white);
+  background-color: var(--biscay-blue);
+  padding: 0.3rem 0.6rem;
+}
+
+.page497 .table-left .content {
+  padding: 0.8rem 0.6rem;
+}
+
+.page497 .table-left .content:not(:last-of-type) {
+  border-bottom: .125rem solid var(--biscay-blue);
+}
+
+.page497 .table-right .main-title {
+  color: var(--white);
+  background-color: var(--carmine-brown);
+  padding: 0.3rem 0.6rem;
+}
+
+.page497 .table-right .content {
+  padding: 0.8rem 0.6rem;
+  background-color: var(--white);
+}
+
+.page497 .table-right .content:not(:last-of-type) {
+  padding: 0.8rem 0.6rem;
+  border-bottom: .125rem solid var(--carmine-brown);
+}
+
+
+
+
+.font-size-1_8 .page496 .para-text-1,
+.font-size-1_6 .page496 .para-text-1 {
+  flex-basis: 5rem;
+}
+
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+  .checklist-box-1 {
+    margin: 1rem;
+  }
+
+  .checklist-box-2 {
+    margin: 1rem;
+  }
+
+  .pageHeader-Left::after {
+    background-size: 90px 112%;
+  }
+
+  .pageHeader-Left .innerContainer {
+    margin-left: 2.3rem;
+  }
+
+  .page496 .left-page-content {
+    padding: 0 1rem 0 1rem;
+  }
+
+  .page497 .right-page-content {
+    padding: 1.5rem 1rem 0 1rem;
+  }
+
+  .page496 .left-page-content .custom-row .sideBar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 0.8rem 0;
+    justify-content: space-around;
+  }
+
+  .page496 .left-page-content .sideBar .tipsArea,
+  .page496 .left-page-content .sideBar .txt-box {
+    position: unset;
+  }
+
+  .page497 .essential-comp {
+    width: auto;
+    background-color: var(--white);
+    margin-right: 0;
+    position: relative;
+    margin-left: 0rem;
+    float: none;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    z-index: 2;
+    margin-left: -1rem;
+  }
+
+  .page496 .para-text-1 {
+    flex-basis: 3rem;
+    white-space: nowrap;
+  }
+
+  .page496 .d-flex {
+    gap: 1rem;
+    flex-direction: row;
+  }
+
+  .indentTextArea .text-num-box {
+    flex-direction: column;
+  }
+
+  .page497 .ol-list {
+    margin: 0;
+  }
+
+  .page497 .table-flex {
+    margin-right: 0rem;
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+
+  .page497 .table-right {
+    border-left: .125rem solid var(--carmine-brown);
+  }
+
+  .page496 .left-page-content .custom-row .col-left {
+    padding-left: 1rem;
+    padding-right: 0;
+  }
+
+  .right-page-content .custom-row .col-left {
+    padding: 0;
+
+  }
+
+  .page496 .left-page-content .custom-row .sideBar {
+
+    word-break: break-word;
+  }
+
+
+}
+
+/* Ipad devices (above 577px and below 768px)*/
+@media only screen and (min-width: 577px) and (max-width: 768px) {}
+
+/* Ipad devices (above 769px and below 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {}
+
+/* Ipad devices & Phone Landscape (above 769px and below 992px) */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .page497 .table-flex {
+    margin-right: -12rem;
+  }
+
+  .page496 .para-text-2 {
+    flex-basis: 24rem;
+  }
+
+  .font-size-1_125 .page497 .table-flex {
+    margin: 0;
+  }
+
+  .page496 .para-text-1 {
+    flex-basis: 5rem;
+  }
+
+  .page497 .essential-comp {
+    width: auto;
+    background-color: var(--white);
+    margin-right: 0;
+    position: relative;
+    margin-left: 0rem;
+    float: none;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    z-index: 2;
+  }
+
+  .pageHeader-Left .innerContainer {
+
+    margin-left: 3.5rem;
+  }
+
+
+  .page497 .right-page-content {
+    padding: 1.5rem 1rem 0 2rem;
+  }
+
+  .page496 .left-page-content .custom-row .sideBar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 0.8rem 0;
+    justify-content: space-around;
+    word-break: break-word;
+  }
+
+  .page496 .left-page-content .sideBar .tipsArea,
+  .page496 .left-page-content .sideBar .txt-box {
+    position: unset;
+  }
+
+  .font-size-1_125 .checklist-box-2 {
+    margin: 0rem 0.5rem 0rem 1rem;
+    padding-top: 1rem;
+  }
+
+  .font-size-1_125 .page496 .left-page-content .custom-row .col-left {
+    padding-right: 0;
+  }
+
+  .right-page-content .custom-row .col-left {
+    padding-left: 0;
+    padding-right: 0.5rem;
+  }
+
+  .font-size-1_125 .checklist-box-1 {
+    margin: 1rem 0.5rem 0rem 1rem;
+  }
+
+  .font-size-1_125 .page496 .left-page-content .heading-box h2 {
+    margin-top: 1rem;
+  }
+
+}
+
+
+
+/* Desktop devices (992px and up) */
+@media only screen and (min-width: 993px) {}
+
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .page496 .para-text-1 {
+    flex-basis: 5rem;
+  }
+}

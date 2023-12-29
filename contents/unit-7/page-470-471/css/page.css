@@ -1,0 +1,120 @@
+.pageHeader-Left {
+    background-color: var(--lacustral-green);
+}
+
+.big-letter {
+    float: left;
+    margin-top: .5rem;
+    color: var(--ce-soir-purple);
+    line-height: 0.5;
+}
+
+.txt-blue {
+    color: var(--bayman-blue);
+
+}
+
+.para-main-1 {
+    text-indent: 0 !important;
+}
+
+.txt-d-blue {
+    color: var(--master);
+}
+
+.page471 .col-2-custom-row {
+    height: inherit;
+}
+
+.page471 .col-2-custom-row .col-left {
+    margin-right: 0.5rem;
+}
+
+
+.right-page-content .col-1-custom-row {
+    z-index: -1;
+}
+
+.left-page-content .col-1-custom-row .col-left,
+.left-page-content .col-2-custom-row .col-left,
+.right-page-content .col-1-custom-row .col-left {
+    background: transparent !important;
+}
+
+
+.right-page-content .sideBar.d-flex.align-items-end {
+    padding-top: 6rem;
+}
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+    .right-page-content .col-1-custom-row {
+        position: relative;
+    }
+
+    .page471 .col-2-custom-row {
+        height: auto;
+    }
+
+    .right-page-content .sideBar.d-flex.align-items-end {
+        padding-top: 1rem;
+        align-items: self-start;
+    }
+
+    .right-page-content,
+    .left-page-content {
+        padding: 0.3rem;
+    }
+
+    .left-page-content .col-1-custom-row .col-left,
+    .left-page-content .col-2-custom-row .col-left {
+        padding-left: 2.5rem !important;
+    }
+
+}
+
+/* Ipad devices (above 577px and below 768px) */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .right-page-content .sideBar.d-flex.align-items-end {
+        padding-top: 10rem;
+    }
+
+    .font-size-1_125 .align-items-end {
+        align-items: flex-start;
+    }
+
+    .font-size-0_75 .right-page-content .sideBar.d-flex.align-items-end {
+        padding-top: 14rem;
+    }
+
+    .font-size-1_125 .right-page-content .col-1-custom-row {
+        position: relative;
+    }
+
+    .font-size-1_125 .page471 .col-2-custom-row {
+        height: auto;
+    }
+
+    .font-size-1_125 .right-page-content .sideBar.d-flex.align-items-end {
+        padding-top: 1rem;
+        align-items: self-start;
+    }
+
+    .font-size-1_125 .top-img-here {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .font-size-1_125 .left-page-content .col-1-custom-row .col-left,
+    .font-size-1_125 .left-page-content .col-2-custom-row .col-left {
+        padding-left: 2.5rem !important;
+    }
+}
+
+/* Ipad devices (above 577px and below 768px) */
+@media only screen and (min-width: 577px) and (max-width: 992px) {}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {}
+
+/* Page bifurcation for single page view on desktop mode with full zoom-in  */
+@media only screen and (min-width: 993px) and (max-width: 1024px) {}

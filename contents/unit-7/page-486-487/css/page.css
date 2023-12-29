@@ -1,0 +1,342 @@
+.pageHeader-Right {
+  z-index: 1;
+}
+
+.txt-blue {
+  color: var(--pickled-blue);
+}
+
+.pageHeader-Left {
+  background-color: var(--lantana-red);
+}
+
+/* .page486 */
+.page486 .left-page-content {
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.5rem; */
+  padding-right: 2rem;
+}
+
+.page486 .mid-box-1 {
+  background: var(--dark-blueish-color);
+  padding-top: 0.75rem;
+  padding-bottom: 1rem;
+  padding-right: 0.75rem;
+}
+
+.page486 .items-1 {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.page486 .box-1 {
+  background: var(--white);
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-left: 2rem;
+  width: fit-content;
+  padding-top: 0.625rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.625rem;
+  box-shadow: 3px 3px var(--white);
+  margin-top: 1rem;
+  flex-basis: 20rem;
+  flex-grow: 1;
+  position: relative;
+}
+
+.page486 .green-text-1 {
+  color: var(--greenish-color);
+  display: flex;
+  padding-left: 1rem;
+}
+
+.page486 span.green-text {
+  position: absolute;
+  background: var(--greenish-color);
+  border-radius: 50%;
+  padding: 0.25rem;
+  color: var(--white);
+  left: -0.5rem;
+  top: -0.5rem;
+  font-weight: bold;
+  object-fit: cover;
+  width: 10%;
+  height: auto;
+  text-align: center;
+}
+
+.page486 .para-left {
+  margin-left: 1rem;
+}
+
+.page486 .img-1 {
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+.page486 .img-portion {
+  flex-basis: 12rem;
+  flex-grow: 1;
+}
+
+.page486 .bg-white {
+  background-color: var(--white);
+}
+
+.page486 .col-2-custom-row .col-left {
+  background-color: var(--MEADOW-BLOSSOM-BLUE);
+}
+
+.page486 .img-container {
+  gap: 1rem;
+}
+
+.page486 .col-2-custom-row .col-left {
+  padding: 1rem;
+}
+
+.page486 .m-left {
+  margin-left: -10rem;
+}
+
+.page486 .left-page-content .custom-row .col-left {
+  padding-top: 1rem;
+}
+
+/* .page487 */
+.page487 .sideBar {
+  background-color: var(--cream);
+}
+
+.page487 .right-page-content .custom-row .col-left {
+  background-color: transparent;
+  padding-left: 2.5rem;
+}
+
+.page487 .right-page-content .col-1-custom-row {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 1rem;
+  width: 100%;
+  z-index: 0;
+  padding-left: 0.3rem;
+}
+
+.page487 .right-page-content .col-1-custom-row .sideBar {
+  line-height: 0;
+}
+
+.page487 .right-page-content .img-box {
+  top: 0.5rem;
+  right: 0.5rem;
+  display: block;
+  width: 45%;
+}
+
+.page487 .icon-with-text-wrapper.mb-0 {
+  margin-bottom: 0;
+}
+
+.page487 .icon-with-text-wrapper .heading-icon .mouse-icon.top-0 {
+  top: 0;
+}
+
+.page487 .col-3-custom-row .col-left {
+  padding-bottom: 0;
+}
+
+.page487 .explore-comp {
+  margin-right: -10rem;
+  position: relative;
+}
+
+.page487 .icon-with-text-wrapper .dbl-icon {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  width: auto;
+  margin-left: -2.5rem;
+  margin-right: 0.3rem;
+}
+
+.page487 .icon-with-text-wrapper .heading-icon .svgIcon {
+  margin: 0 auto;
+}
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+  .page486 .left-page-content {
+    padding: 0.8rem;
+  }
+
+  .page486 .m-left {
+    margin-left: 0;
+  }
+
+  .page486 .left-page-content .custom-row .col-left {
+    padding: 0.5rem 0.5rem;
+  }
+
+  .page486 .img-portion {
+    flex-basis: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .page487 .col-1-custom-row .sideBar {
+    background-color: transparent;
+  }
+
+  .page486 .box-1 {
+    width: fit-content;
+    flex-basis: auto;
+  }
+
+  .page486 .items-1 {
+    flex-direction: column;
+  }
+
+  .page486 .box-1 {
+    margin-left: 0.75rem;
+  }
+
+  .right-page-content {
+    padding-top: 0;
+    padding-left: 2rem;
+  }
+
+  .page487 .right-page-content .img-box {
+    display: block;
+    width: 100%;
+    position: unset;
+  }
+
+  .page487 .right-page-content .custom-row .col-left {
+    background-color: transparent;
+    padding-left: 1.5rem;
+    padding-right: 0;
+  }
+
+  .page487 .right-page-content .col-1-custom-row {
+    z-index: 0;
+    position: unset;
+    width: 100%;
+    margin: auto;
+  }
+
+  .page487 .explore-comp {
+    margin-right: 0rem;
+    position: relative;
+  }
+
+  .page487 .noteComp {
+    padding: 0.5rem;
+    margin: auto;
+    max-width: 90%;
+
+  }
+
+}
+
+/* Ipad devices (above 577px and below 768px)*/
+@media only screen and (min-width: 577px) and (max-width: 768px) {}
+
+/* Ipad devices (above 577px and below 992px)*/
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+
+  .page486 .left-page-content {
+    padding: 0.8rem;
+  }
+
+  .font-size-1_125 .page486 .img-portion {
+    width: 100%;
+    text-align: center;
+  }
+
+  .font-size-1_125 .page486 .img-1 {
+    max-width: 50%;
+    margin-top: 1rem;
+  }
+
+  .icon-with-text-wrapper ol,
+  .icon-with-text-wrapper ul {
+    padding: 0.3rem 0 0 1rem;
+  }
+
+  .font-size-1_125 .col-1-custom-row .sideBar {
+    background-color: transparent;
+    padding-bottom: 0.5rem;
+  }
+
+  .font-size-1_125 .page486 span.green-text {
+    left: -1.5rem;
+    top: -1rem;
+  }
+
+  .font-size-1_125 .page486 .items-1 {
+    flex-direction: column;
+  }
+
+  .font-size-1_125 .page486 .m-left {
+    margin-left: 0;
+  }
+
+  .font-size-1_125 .bg-white {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .font-size-1_125 .bg-white figure {
+    width: 50%;
+  }
+
+  .font-size-1_125 .page486 .box-1 {
+    flex-basis: auto;
+  }
+
+  .font-size-0_75 .page486 span.green-text {
+    left: -0.7rem;
+    top: -0.5rem;
+  }
+
+  .glossary-com.ms-sm {
+    margin-left: 1.5rem;
+  }
+
+  .glossary-com .idiom {
+    margin-left: -3.27rem;
+  }
+
+  .font-size-1_125 .page486 .sideBar.pt-2.pt-sd-0 {
+    margin: 1rem 0;
+    padding-top: 0;
+  }
+
+  .font-size-1_125 .page487 .explore-comp {
+    margin-right: 0rem;
+    position: relative;
+  }
+
+  .font-size-1_125 .page487 .right-page-content .col-1-custom-row {
+    z-index: 0;
+    position: unset;
+    width: 60%;
+    margin: auto;
+  }
+}
+
+/* Ipad devices (above 769px and below 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {}
+
+/* Desktop devices (992px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .pageHeader-Left .innerContainer {
+    width: 65%;
+  }
+}

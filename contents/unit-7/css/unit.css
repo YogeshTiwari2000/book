@@ -1,0 +1,132 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.custom-card {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(201, 201, 201, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(201, 201, 201, 1);
+    box-shadow: 0px 0px 5px 0px rgba(201, 201, 201, 1);
+}
+
+ol.list-box {
+    padding: 0;
+    margin: 0 0 0 1rem;
+}
+
+ol.list-box li {
+    padding: 0px 0px 0.4rem 0.3rem;
+}
+
+ol.list-box li::marker {
+    font-weight: bold;
+}
+
+/* +++++++++++++++++++++++++++++++++++
+        FooterComponent CSS 
+ ++++++++++++++++++++++++++++++++++++ */
+footer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: absolute;
+    bottom: 1.25rem;
+    color: var(--black);
+}
+
+footer .page-number {
+    color: var(--black);
+    bottom: 20px;
+    font-weight: 500;
+    font-weight: bold;
+    width: 82px;
+    text-align: end;
+    padding: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+footer.right-page-footer {
+    right: 0;
+}
+
+footer.right-page-footer p {
+    display: flex;
+    right: 0;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+}
+
+footer.left-page-footer p {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+footer.left-page-footer .page-number {
+    left: 0;
+    padding: 5px 9px;
+    border-radius: 0 8px 8px 0;
+    -webkit-border-radius: 0 8px 8px 0;
+    -moz-border-radius: 0 8px 8px 0;
+    -ms-border-radius: 0 8px 8px 0;
+    -o-border-radius: 0 8px 8px 0;
+}
+
+footer.right-page-footer .page-number {
+    text-align: start;
+    padding: 5px 9px;
+    border-radius: 8px 0px 0px 8px;
+    right: 0;
+    -webkit-border-radius: 8px 0px 0px 8px;
+    -moz-border-radius: 8px 0px 0px 8px;
+    -ms-border-radius: 8px 0px 0px 8px;
+    -o-border-radius: 8px 0px 0px 8px;
+}
+
+
+footer .page-unit {
+    text-transform: uppercase;
+    text-transform: uppercase;
+    background: var(--white);
+    padding: 5px 9px;
+    border-radius: 4px;
+}
+
+footer .page-unit.white {
+    color: var(--white);
+}
+
+footer .page-unit.black {
+    color: var(--black);
+}
+
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {}

@@ -1,0 +1,156 @@
+.page488-489 {
+  line-height: 1.5;
+  color: var(--dark-grey);
+}
+
+.pageHeader-Left {
+  background-color: var(--plum-purple);
+}
+
+.page488-489 .sideBar {
+  flex-basis: 30%;
+  background-color: var(--cream);
+}
+
+.right-page-content .custom-row .col-left,
+.left-page-content .custom-row .col-left {
+  background-color: transparent;
+  padding: 0.5rem 1rem 0.5rem 3rem;
+}
+
+
+.left-page-content .custom-row .sideBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.txtRed {
+  color: var(--flame-red);
+}
+
+.page488 .noteComp {
+  margin-right: 0;
+}
+
+.page488 ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.page488 ul li {
+  padding-bottom: 0.5rem;
+}
+
+.tipsArea span {
+  padding-bottom: 0;
+
+}
+
+.inner-box {
+  border: 1px solid var(--grey2);
+  margin: 1rem auto;
+  width: fit-content;
+  padding: 0.5rem;
+}
+
+.inner-box .first {
+  display: flex;
+  gap: 2rem;
+}
+
+
+
+/* page489 */
+.page489 .right-page-content {
+  padding: 1.5rem 0rem 0rem 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.page489 .right-page-content .custom-row {
+  height: 100%;
+}
+
+.right-page-content .custom-row .sideBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.page489 .tipsArea {
+  margin-left: 1rem;
+  margin-right: 0;
+}
+
+.page489 ul {
+  margin: 0;
+}
+
+.page489 ul li {
+  padding-bottom: 0.5rem;
+}
+
+.noteComp {
+  margin-right: 0;
+}
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+
+
+  .left-page-content .custom-row .col-left {
+    padding: 0.5rem 0rem 0.5rem 2rem;
+  }
+
+  .right-page-content .custom-row .col-left {
+    padding: 0.5rem 1rem 0.5rem 2rem;
+  }
+
+  .page488 .noteComp {
+    max-width: fit-content;
+    padding: 1rem;
+    padding-left: 0;
+  }
+
+  .page489 .noteComp {
+    max-width: fit-content;
+    padding: 1rem;
+    padding-right: 0;
+
+  }
+
+
+  .inner-box .first {
+
+    gap: 0rem;
+    flex-direction: column;
+  }
+
+  .page489 .right-page-content {
+    padding: 1.5rem 0rem 0rem 1rem;
+  }
+}
+
+/* Ipad devices (above 577px and below 768px)*/
+@media only screen and (min-width: 577px) and (max-width: 768px) {}
+
+/* Ipad devices (above 769px and below 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {}
+
+/* Ipad devices & Phone Landscape (above 769px and below 992px) */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .page489 .right-page-content {
+    padding: 1.5rem 0rem 0rem 0rem;
+  }
+
+
+}
+
+
+
+/* Desktop devices (992px and up) */
+@media only screen and (min-width: 993px) {}
+
+@media only screen and (min-width: 993px) and (max-width: 1024px) {}

@@ -1,0 +1,134 @@
+.pageHeader-Right {
+  z-index: 1;
+}
+
+.pageHeader-Left {
+  background-color: var(--house-green);
+}
+
+.txt-green {
+  color: var(--greenColor);
+}
+
+.tipsArea {
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.tipsArea ul {
+  padding-left: 1.8rem;
+  padding-right: 0.8rem;
+  margin: 0.2rem;
+}
+
+.tipsArea span {
+  padding-bottom: 0.5rem;
+}
+
+.txt-indt-0 {
+  text-indent: 0 !important;
+}
+
+/* .page460 */
+.page460 .left-page-content {
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.5rem; */
+  padding-right: 2rem;
+}
+
+/* .page461 */
+.page461 .right-page-content .col-1-custom-row .col-left {
+  background-color: transparent;
+  padding-left: 2.5rem;
+}
+
+.page461 .right-page-content .col-1-custom-row {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.8rem;
+  width: 100%;
+  z-index: 0;
+  padding-left: 0.3rem;
+}
+
+.page461 .right-page-content .col-1-custom-row .sideBar {
+  line-height: 0;
+}
+
+.page461 .col-2-custom-row .sideBar .analyze-comp {
+  margin-bottom: 12rem;
+}
+
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+  .page460 .left-page-content {
+    padding: 0.8rem;
+  }
+
+  .page461 .right-page-content .col-1-custom-row {
+    z-index: 0;
+    position: unset;
+    width: 60%;
+    margin: auto;
+  }
+
+  .page461 .col-2-custom-row .sideBar .analyze-comp {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+
+}
+
+/* Ipad devices (above 577px and below 768px)*/
+@media only screen and (min-width: 577px) and (max-width: 768px) {}
+
+/* Ipad devices (above 577px and below 992px)*/
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+
+  .page460 .left-page-content {
+    padding: 0.8rem;
+  }
+
+  .glossary-com.ms-sm {
+    margin-left: 1.5rem;
+  }
+
+  .glossary-com .idiom {
+    margin-left: -3.27rem;
+  }
+
+  .font-size-1_125 .page461 .explore-comp {
+    margin-right: 0rem;
+    position: relative;
+  }
+
+  .font-size-1_125 .page461 .right-page-content .col-1-custom-row {
+    z-index: 0;
+    position: unset;
+    width: 60%;
+    margin: auto;
+  }
+
+  .font-size-1_125 .page461 .col-2-custom-row .sideBar .analyze-comp {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  .font-size-1_125 .page460 .analyze-comp.pt-2 {
+    padding-top: 1rem;
+  }
+}
+
+/* Ipad devices (above 769px and below 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {}
+
+/* Desktop devices (992px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .pageHeader-Left .innerContainer {
+    width: 65%;
+  }
+}

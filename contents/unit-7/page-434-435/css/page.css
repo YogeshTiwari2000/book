@@ -1,0 +1,232 @@
+.articleSection .indentTextArea {
+  padding: 0 1rem 0rem 0rem;
+}
+
+.page434 .sideBar,
+.page435 .sideBar {
+  background-color: var(--cream);
+}
+
+.page434 .col-1-custom-row .sideBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page434 table tr {
+  border: 2px solid;
+}
+
+.page434 table thead th {
+  padding: .1rem .3rem;
+  text-align: left;
+}
+
+.page434 table tr td {
+  padding: .1rem .3rem;
+  min-height: 2rem;
+  padding-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+}
+
+tbody {
+  border: 2px solid;
+}
+
+.page434 .main-heading-comp ul {
+  margin-top: 0;
+}
+
+.page434 .main-heading-comp ul li {
+  padding-top: .4rem;
+}
+
+.page434 .main-heading-comp ul li:first-child {
+  padding-top: 0;
+}
+
+.page434 .main-heading-comp .content-area .headBar {
+  margin-bottom: 0;
+}
+
+.page434 .main-heading-comp strong.green {
+  color: var(--cal-poly-green);
+}
+
+.notice-box4 {
+  background-color: var(--greenish);
+}
+
+.notice-box-sec4 h2 {
+  border-bottom: 2px solid var(--wedgewood);
+  padding-left: 0;
+}
+
+.tipsArea span {
+  padding-left: 0.5rem;
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.notice-box {
+  display: inline-block;
+  width: 0.01rem;
+  background-color: var(--yellow-highlight);
+}
+
+.page435 .highlight-brown {
+  background-color: var(--cashmera-brown);
+}
+
+.page435 .highlight-green {
+  background-color: var(--greenish);
+}
+
+.notice-box4 {
+  background-color: var(--link-water);
+}
+
+.notice-box2 {
+  background-color: var(--cashmera-brown);
+}
+
+.page435 .indentTextArea span.blue {
+  background-color: var(--link-water);
+}
+
+.page435 .indentTextArea span.brown {
+  background-color: var(--enury);
+}
+
+.page435 .col-1-custom-row .sideBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.ps-2 {
+  padding-left: 2rem !important;
+}
+
+.page435 figure {
+  width: 45%;
+  position: absolute;
+  right: 0.5rem;
+  top: 2.5rem;
+}
+
+.parent-container article {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.pageHeader-Left {
+  background-color: var(--house-green);
+}
+
+.pageHeader-Left {
+  background-color: var(--orange-head-bg);
+  min-height: 4rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.page434 .svgIcon {
+  height: 1.9375rem;
+}
+
+.left-page-content .custom-row .col-left {
+  background-color: transparent;
+  padding-left: 2.5rem;
+}
+
+.right-page-content .custom-row .col-left {
+  background-color: transparent;
+  padding-left: 2.2rem;
+}
+
+.page435 .tipsArea {
+  margin-right: 0;
+}
+
+.page435 .notice-box-sec2 h2 {
+  border-bottom: solid 2px var(--crown-of-throwns);
+  padding-left: 0;
+}
+
+.page435 .notice-box-sec2 h2 span {
+  background-color: var(--enury);
+}
+
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+
+  .page434 .col-3-custom-row .col-left,
+  .page434 .col-1-custom-row .col-left {
+    padding: 0;
+  }
+
+  .page434 .col-2-custom-row .col-left {
+    padding-right: 0;
+  }
+
+  .font-size-1_25 .page434 table {
+    font-size: var(--font-10pt-doublepage);
+  }
+
+  .page435 .col-2-custom-row .col-left,
+  .page435 .col-1-custom-row .col-left {
+    padding: 0;
+  }
+
+  .page435 .col-1-custom-row .small-heading-icon-comp {
+    padding-left: 1.2rem;
+  }
+
+  .page435 .col-2-custom-row .sideBar {
+    background-color: transparent;
+  }
+
+}
+
+/* Ipad devices (above 577px and below 768px)*/
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+
+  .font-size-1_25 .page435 .col-1-custom-row .sideBar,
+  .font-size-1_25 .page434 .col-2-custom-row .sideBar,
+  .font-size-1_25 .page434 .col-1-custom-row .sideBar {
+    padding: 1rem;
+  }
+
+  .font-size-1_125 .col-2-custom-row .sideBar {
+    background-color: transparent;
+  }
+
+  .font-size-1_125 .col-2-custom-row .sideBar img {
+    width: 65%;
+    display: block;
+    margin: auto;
+  }
+}
+
+/* Ipad devices (above 769px and below 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {}
+
+
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .page434 .col-2-custom-row .sideBar .academic-Vocabulary h2 {
+    width: 93%;
+  }
+}

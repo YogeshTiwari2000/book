@@ -1,0 +1,394 @@
+/* Montserrat Font */
+@font-face {
+    font-family: 'Montserrat-Thin';
+    src: url('../fonts/Montserrat-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraLight';
+    src: url('../fonts/Montserrat-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url('../fonts/Montserrat-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+
+
+
+/* Roboto FontFace */
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('../fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Roboto Condensed */
+
+@font-face {
+    font-family: 'RobotoCondensed-Light';
+    src: url('../fonts/RobotoCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Regular';
+    src: url('../fonts/RobotoCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Bold';
+    src: url('../fonts/RobotoCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Convergence */
+@font-face {
+    font-family: 'Convergence';
+    src: url('../fonts/Convergence-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* PT_Serif-Regular" */
+@font-face {
+    font-family: "PT_Serif-Regular";
+    src: url("../fonts/PT_Serif-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT_Serif-Bold";
+    src: url("../fonts/PTSerif-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*  EBGaramond" */
+@font-face {
+    font-family: "EBGaramond-Regular";
+    src: url("../fonts/EBGaramond-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "EBGaramond-Medium";
+    src: url("../fonts/EBGaramond-Medium.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "EBGaramond-Bold";
+    src: url("../fonts/EBGaramond-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "EBGaramond-SemiBold";
+    src: url("../fonts/EBGaramond-SemiBold.ttf");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "EBGaramond-ExtraBold";
+    src: url("../fonts/EBGaramond-ExtraBold.ttf");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "EBGaramond-Italic";
+    src: url("../fonts/EBGaramond-MediumItalic.ttf");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Ruluko-Regular";
+    src: url("../fonts/Ruluko-Regular.ttf");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Allan */
+@font-face {
+    font-family: "Allan-Bold";
+    src: url("../fonts/Allan-Bold.ttf");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* ++++++++++++++++++++++++++++++
+    Avenir -> Montserrat
++++++++++++++++++++++++++++++++++ */
+.Avenir-Thin {
+    font-family: 'Montserrat-Thin';
+}
+
+.Avenir-ExtraLight {
+    font-family: 'Montserrat-ExtraLight';
+}
+
+.Avenir-Light {
+    font-family: 'Montserrat-Light';
+}
+
+.Avenir-Regular {
+    font-family: 'Montserrat-Regular';
+}
+
+
+.Avenir-Medium {
+    font-family: 'Montserrat-Medium';
+}
+
+.Avenir-SemiBold {
+    font-family: 'Montserrat-SemiBold';
+}
+
+.Avenir-Bold {
+    font-family: 'Montserrat-Bold';
+}
+
+.Avenir-Black {
+    font-family: 'Montserrat-Black';
+}
+
+.Avenir-ExtraBold {
+    font-family: 'Montserrat-ExtraBold';
+}
+
+
+
+
+/* ++++++++++++++++++++++++++++++
+            Roboto
++++++++++++++++++++++++++++++++++ */
+
+.HelveticaRounded-Light {
+
+    font-family: 'Roboto-Light';
+}
+
+.HelveticaRounded-Regular {
+    font-family: 'Roboto-Regular';
+}
+
+.HelveticaRounded-Medium {
+    font-family: 'Roboto-Medium';
+}
+
+.HelveticaRounded-Bold {
+    font-family: 'Roboto-Bold';
+}
+
+.HelveticaRounded-Black {
+    font-family: 'Roboto-Black';
+}
+
+
+/* ++++++++++++++++++++++++++++++
+        Roboto Condensed
++++++++++++++++++++++++++++++++++ */
+.HelveticaNeue-Light,
+.Univers-Light {
+    font-family: 'RobotoCondensed-Light';
+}
+
+.HelveticaNeue-Regular,
+.Univers-Regular {
+    font-family: 'RobotoCondensed-Regular';
+}
+
+.HelveticaNeue-Bold,
+.Univers-Bold {
+    font-family: 'RobotoCondensed-Bold';
+}
+
+/* ++++++++++++++++++++++++++++++
+    Folder-font -> Convergence
++++++++++++++++++++++++++++++++++ */
+
+.Folder-font {
+    font-family: "Convergence";
+}
+
+/* ++++++++++++++++++++++++++++++
+    Flora-Std -> Ruluko-Regular
++++++++++++++++++++++++++++++++++ */
+
+.Flora-Std {
+    font-family: "Ruluko-Regular";
+}
+
+
+/* ++++++++++++++++++++++++++++++
+    PT_Serif font -> Galliard-Medium
++++++++++++++++++++++++++++++++++ */
+
+.Galliard-Medium {
+    font-family: "PT_Serif-Regular";
+}
+
+.Galliard-Bold {
+    font-family: "PT_Serif-Bold";
+}
+
+/* ++++++++++++++++++++++++++++++
+   EBGaramond font -> Galliard
++++++++++++++++++++++++++++++++++ */
+
+.Galliard-Regular {
+    font-family: "EBGaramond-Regular";
+}
+
+.Galliard-Medium {
+    font-family: "EBGaramond-Medium";
+}
+
+.Galliard-Bold {
+    font-family: "EBGaramond-Bold";
+}
+
+.Galliard-SemiBold {
+    font-family: "EBGaramond-SemiBold";
+}
+
+.Galliard-ExtraBold {
+    font-family: "EBGaramond-ExtraBold";
+}
+
+.Galliard-Italic {
+    font-family: "EBGaramond-Italic";
+}
+
+/* ++++++++++++++++++++++++++++++
+    Allan-Bold font -> FloraStd
++++++++++++++++++++++++++++++++++ */
+.FloraStd-Bold {
+    font-family: "Allan-Bold";
+}

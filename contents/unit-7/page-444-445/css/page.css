@@ -1,0 +1,270 @@
+.pageHeader-Left {
+  background-color: var(--purple);
+}
+
+.greenColor {
+  color: var(--greenColor);
+}
+
+.left-page-content .custom-row .col-left,
+.right-page-content .custom-row .col-left {
+  background: none !important;
+  padding-left: 3rem;
+}
+
+
+.sideBar {
+  background-color: var(--cream);
+}
+
+.preview-comp .heading-icon-with-text .svgIcon {
+  margin-left: -2.5rem;
+}
+
+.right-page-content .custom-row .sideBar {
+  flex-basis: 30%;
+  align-items: end;
+  display: flex
+}
+
+.green {
+  color: var(--greenColor);
+}
+
+.page444 .rateWrapper {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 1.5rem;
+}
+
+.page444 .rateWrapper .img {
+  flex: 3;
+  align-self: flex-end;
+}
+
+.page444 .rateWrapper .img img {
+  width: 100%;
+  max-width: max-content;
+}
+
+.page444 .rateWrapper .ratingSection {
+  flex: 5;
+  border: 1px solid var(--grey);
+  border-bottom: 0;
+  border-radius: 3.2rem 3.2rem 0 0;
+  padding: 0.9rem 0.8rem 0;
+}
+
+.page444 .rateWrapper .ratingSection .inner {
+  background-color: var(--grey2);
+  border-radius: 2.2rem 2.2rem 0 0;
+  text-align: center;
+  padding: 0.7rem 0.9rem 0.8rem;
+  color: var(--white);
+}
+
+.page444 .rateWrapper .ratingSection .starImgs img {
+  width: 50%;
+}
+
+.studySection {
+  margin-left: -11rem;
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+.studySection .top-row {
+  display: flex;
+}
+
+.studySection .top-row .leftCol {
+  flex-basis: 17rem;
+  background-color: var(--white);
+}
+
+.studySection .top-row .leftCol h2 {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 0.2rem 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bVnbqC.hotlink-element {
+  display: block;
+  border-radius: 5px;
+}
+
+.studySection .top-row .leftCol h2 img {
+  width: 1.8rem;
+}
+
+.studySection .contentPnl {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.blue-txt,
+.smallTxt {
+  color: var(--blue);
+}
+
+.studySection .top-row .rightCol {
+  flex-basis: 100%;
+}
+
+.studySection .top-row .rightCol img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.bot-area {
+  background-color: var(--blue);
+  padding: 0.8rem 1.5rem;
+  color: var(--white);
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.noteComp {
+  margin-bottom: 1rem;
+}
+
+.font-size-1_6 .noteComp .iconBox img {
+  height: 1rem;
+}
+
+.font-size-1_8 .academic-Vocabulary .left-col {
+  width: 60% !important;
+}
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+  .noteComp {
+    max-width: fit-content;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .left-page-content {
+    padding-right: 0.8rem;
+    padding-left: 0;
+  }
+
+  .page444 .col-2-custom-row .col-left {
+    padding: 0;
+  }
+
+  .left-page-content {
+    padding-right: 0.8rem;
+  }
+
+  .rateWrapper {
+    flex-direction: column;
+  }
+
+  .studySection {
+    margin-left: 0;
+  }
+
+  .studySection .top-row {
+    flex-direction: column;
+  }
+
+  .studySection .top-row .leftCol {
+    flex-basis: auto;
+  }
+
+  .mt-2-min {
+    margin-top: 0;
+  }
+}
+
+/* Ipad devices (above 577px and below 768px)*/
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .font-size-1_125 .noteComp {
+    max-width: fit-content;
+  }
+
+  .font-size-1_125 .pt-5 {
+    padding-top: 1rem;
+  }
+
+  .font-size-1_125 .mt-2-min {
+    margin-top: 0;
+  }
+
+  .font-size-1_125 .page444 .pt-2 {
+    padding-top: 0rem;
+  }
+
+  .font-size-1_125 .rateWrapper {
+    flex-direction: column;
+  }
+
+
+  .font-size-1_125 .studySection {
+    margin-left: 0;
+  }
+
+  .font-size-1_125 .studySection .top-row {
+    flex-direction: column;
+  }
+
+  .font-size-1_125 .studySection .top-row .leftCol {
+    flex-basis: auto;
+  }
+
+  .font-size-1_125 .page444 .rateWrapper .img img {
+    width: 40%;
+  }
+
+  .font-size-1_125 .page444 .rateWrapper .img {
+    text-align: center;
+  }
+
+  .font-size-0_875 .noteComp {
+    max-width: initial;
+  }
+}
+
+/* Ipad devices (above 769px and below 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .font-size-1_125 .left-page-content .custom-row {
+    flex-direction: column;
+  }
+
+  .font-size-1_125 .empty-sideBar {
+    display: none;
+  }
+
+  .font-size-1_125 .right-page-content .custom-row {
+    flex-direction: column;
+  }
+
+  .font-size-1_125 .custom-row .col-left {
+    flex-basis: auto !important;
+  }
+
+  .font-size-1_125 .custom-row .sideBar {
+    flex-basis: auto !important;
+  }
+}
+
+/* Desktop devices (992px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .noteComp .iconBox img {
+    height: 1rem;
+  }
+
+  .page445 .noteComp {
+    margin-right: .2rem;
+  }
+}

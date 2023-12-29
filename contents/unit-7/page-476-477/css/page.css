@@ -1,0 +1,126 @@
+.pageHeader-Right {
+  z-index: 1;
+}
+
+.pageHeader-Left {
+  background-color: var(--lacustral-green);
+}
+
+.txt-blue {
+  color: var(--pickled-blue);
+}
+
+/* .page476 */
+.page476 .left-page-content {
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.5rem; */
+}
+
+.page476 .custom-row.col-2-custom-row .col-left {
+  background-color: transparent;
+}
+
+/* .page477 */
+.page477 .right-page-content .custom-row.col-1-custom-row .col-left {
+  background-color: transparent;
+  padding-left: 2.5rem;
+}
+
+.page477 .right-page-content .col-1-custom-row {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+  padding-left: 0.3rem;
+}
+
+.page477 .right-page-content .col-1-custom-row .sideBar {
+  line-height: 0;
+}
+
+.page476 .sideBar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 3rem;
+
+}
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+  .page476 .left-page-content {
+    padding: 0.5rem;
+  }
+
+  .page477 .right-page-content .custom-row .col-left {
+    padding-left: 1.5rem;
+    padding-right: 0;
+  }
+
+  .page477 .right-page-content .col-1-custom-row {
+    z-index: 0;
+    position: unset;
+    width: 60%;
+    margin: auto;
+  }
+
+  .page476 .sideBar {
+
+    margin-top: 1rem;
+    gap: 0rem;
+
+  }
+
+  .page477 .empty-col {
+    display: none !important;
+  }
+}
+
+/* Ipad devices (above 577px and below 768px)*/
+@media only screen and (min-width: 577px) and (max-width: 768px) {}
+
+/* Ipad devices (above 577px and below 992px)*/
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+
+  .page476 .left-page-content {
+    padding: 0.8rem;
+  }
+
+  .glossary-com.ms-sm {
+    margin-left: 1.5rem;
+  }
+
+
+  .font-size-1_125 .page477 .right-page-content .col-1-custom-row {
+    z-index: 0;
+    position: unset;
+    width: 60%;
+    margin: auto;
+  }
+
+  .font-size-1_125 .analyze-comp {
+    padding-top: 1rem;
+    width: fit-content;
+    max-width: fit-content;
+  }
+
+  .font-size-1_125 .page476 .sideBar {
+
+    margin-top: 1rem;
+    gap: 0rem;
+
+  }
+}
+
+/* Ipad devices (above 769px and below 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {}
+
+/* Desktop devices (992px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .pageHeader-Left .innerContainer {
+    width: 65%;
+  }
+}

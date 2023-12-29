@@ -1,0 +1,110 @@
+/* page494 */
+.left-page-content .custom-row .sideBar {
+  background-color: var(--cream);
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.page494 .left-page-content .sideBar .txt-box {
+  background-color: var(--white);
+  padding: 0.3rem 0.5rem;
+  color: var(--aquarium-green);
+  width: 75%;
+  margin-left: auto;
+  position: absolute;
+  bottom: 2rem;
+  right: 0;
+}
+
+.pageHeader-Left {
+  background-color: var(--plum-purple);
+}
+
+.tipsArea span {
+
+  padding-bottom: 0;
+
+}
+
+
+.page494 .left-page-content .sideBar .tipsArea {
+
+  margin-right: 2rem;
+  position: absolute;
+  top: 13.5rem;
+}
+
+.page495 .right-page-content .custom-row .col-left,
+.page494 .left-page-content .custom-row .col-left {
+  padding: 0.5rem 2.5rem;
+  background-color: transparent;
+}
+
+.page494 .left-page-content .heading-box h2 {
+  padding: 0.2rem 0.4rem;
+  width: fit-content;
+  border: 2px solid var(--plum-purple);
+  color: var(--purple-passage);
+  margin-bottom: 0.5rem;
+}
+
+.page494-495 .strick {
+  text-decoration: line-through;
+  text-decoration-color: var(--flame-red);
+  text-decoration-thickness: 0.125rem;
+}
+
+.page494-495 .txtRed {
+  color: var(--flame-red);
+}
+
+/* page495 */
+.page495 .right-page-content .custom-row .sideBar {
+  background-color: var(--cream);
+}
+
+.right-page-content {
+  height: 100%;
+  display: flex;
+}
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+
+  .page494 .left-page-content .sideBar .tipsArea,
+  .page494 .left-page-content .sideBar .txt-box {
+    position: unset;
+  }
+
+  .page495 .right-page-content .custom-row .col-left,
+  .page494 .left-page-content .custom-row .col-left {
+    padding-right: 0rem;
+  }
+
+  .page495 .right-page-content .custom-row .col-left {
+    padding-left: 1.5rem;
+  }
+
+
+}
+
+/* Ipad devices (above 577px and below 768px)*/
+@media only screen and (min-width: 577px) and (max-width: 768px) {}
+
+/* Ipad devices (above 769px and below 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {}
+
+/* Ipad devices & Phone Landscape (above 769px and below 992px) */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+
+
+  .font-size-1_125 .page494 .left-page-content .sideBar .tipsArea,
+  .font-size-1_125 .page494 .left-page-content .sideBar .txt-box {
+    position: unset;
+  }
+}
+
+/* Desktop devices (992px and up) */
+@media only screen and (min-width: 993px) {}
+
+@media only screen and (min-width: 993px) and (max-width: 1024px) {}
