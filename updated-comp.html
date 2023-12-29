@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>updated comp</title>
+  <link rel="stylesheet" href="./css/book.css" />
+  <!-- <link rel="stylesheet" href="./css/font-families.css">
+    <link rel="stylesheet" href="./css/font-sizes.css">
+    <link rel="stylesheet" href="./css/components.css"> -->
+  <style>
+    section.left-page-content {
+      padding: 1.5rem;
+    }
+
+    .comp-box {
+      padding: 1rem;
+    }
+
+    .txt-grey {
+      color: #757575;
+    }
+
+    .divider {
+      margin: 1rem;
+      display: block;
+    }
+
+    .left-page-content .custom-row .col-left {
+      padding-left: 2.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="parent-container">
+      <article data-page-num="2" class="page2" style="min-height: 36rem">
+        <div class="screen-reader-only" aria-label="2"></div>
+        <!-- pageHeader-Left  -->
+        <header class="pageHeader-Left">
+          <div class="innerContainer">
+            <h2 class="font-15pt-doublepage Avenir-Bold">BEFORE YOU READ</h2>
+          </div>
+        </header>
+        <div class="comp-box left-page-content Avenir-Medium font-10pt-doublepage">
+          <!-- row-1 -->
+          <div class="custom-row row-1">
+            <div class="col-left">
+              <!-- main Heading Comp -->
+              <h3 class="p-sm txt-grey">main Heading Comp</h3>
+              <div class="main-heading-comp">
+                <div class="iconBox">
+                  <img src="../../../images/video-chat-hyperlink.svg" class="svgIcon" />
+                </div>
+                <div class="content-area">
+                  <div class="headBar">
+                    <h2 class="Avenir-Bold">
+                      Video Chat &nbsp;<span class="Avenir-Light">Art Photos</span>
+                    </h2>
+                    <div class="badge">
+                      <img src="../../../images/vocab-tutorial-hyperlink.svg" class="svgIcon" />
+                      TUTORIAL
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- indent-txt-area -->
+              <h3 class="p-sm txt-grey">indent-txt-area</h3>
+              <div class="indentTextArea font-14pt-doublepage">
+                <img src="../../../images/sync-reading-hyperlink.svg" alt="" class="stackIcon" />
+                <div class="text-num-box w-max Galliard-Medium font-13pt-doublepage">
+                  <span class="paranum font-11pt-doublepage"> 1 </span>
+                  <span class="paratext">
+                    They asked the jeweler not to sell it for three days. And
+                    they made it a condition that he would take it back, for
+                    thirty-four thousand francs, if they found the one they'd
+                    lost before the end of February.
+                  </span>
+                </div>
+                <div class="text-num-box w-max Galliard-Medium font-13pt-doublepage">
+                  <span class="paranum font-11pt-doublepage">2 </span>
+                  <span class="paratext">
+                    Loisel had eighteen thousand francs that his father had
+                    left him. He would have to borrow the rest.
+                  </span>
+                </div>
+                <div class="text-num-box w-max Galliard-Medium font-13pt-doublepage">
+                  <span class="paranum font-11pt-doublepage">3 </span>
+                  <span class="paratext">
+                    And borrow he did, asking a thousand francs from one
+                    person, five hundred from another, five louis here, three
+                    louis there. He signed for loans, accepted ruinous
+                    conditions, dealt with moneylenders and every kind of loan
+                    shark. He committed himself for the rest of his life,
+                    risked signing for loans without even knowing whether he
+                    could pay them back. And terrified by the suffering to
+                    come, by the horrible poverty he was about to face, by the
+                    prospect of all the physical deprivation and moral torment
+                    he was going to suffer, he went to the jeweler's, put
+                    thirty-six thousand francs on the counter, and bought the
+                    new necklace.
+                  </span>
+                </div>
+              </div>
+              <div class="divider"></div>
+
+              <!-- arrow-img-box -->
+              <h3 class="p-sm txt-grey">arrow-img-box</h3>
+              <div class="img-box">
+                <img
+                  src="data:image.webp;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAhFBMVEUAAAD///8lJSV/f3+SkpL09PTx8fHm5ub39/ft7e3Z2dmsrKylpaXLy8tfX1/8/PzU1NScnJy4uLhUVFTCwsKysrIbGxtBQUGLi4ssLCy8vLxnZ2d0dHRNTU3g4OBZWVk1NTVFRUUzMzMPDw+NjY1lZWV4eHiDg4MgICCWlpYUFBROTk4IfdW+AAAESklEQVR4nO3YaZeiOhAGYAplB1ld0BaxXbp1/v//G0IgKbDnzOXc6aMz532+iAGRFEmlwDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgnzUrHNuJwrVquGSVW2137BAzSCwvuk0/t5nl+sspjWwvSvn+j8Kx/Gw9/tmT7SyK0lu69OguG1YV+eEt9Mkx+2NCsoNbuiV6m3p2h2Zq+0zu8pZmMW36ln3736FHxf/qwp/2RsWn3Fqf5KdnyVu7d93umIDmciOaGpSAdEzmFMqNZR+UI1VldxHJ5Av/Pmtajloy6kdyTdv280Jq0iTWasrZd/SmYlLrfyqobj99r29502Pn+SJ71GD2d7ORUi0+fEe1rPsR8598NudSMSlivUOGZ0c6ZT1cx/PsaTdqSYl9IZEPS/rQLUk14eyR14S4jwmLtZFZ3W5lQYsJJ/5WqTtu8fnMjsQI2dC7brlSqb/kZ3bsO+uzdGuOVTHZ0Z79sI1AzH9hZ5Mu/BtVbcJf1eWpb4kDtjuwmvatxVpyfj/npINixs4o1exFOFRMBuPPFEOvHCRs/1Wy7MmeG6vUcYnsQva1HCSMmci3g+nyHvP9Z3W0GVcnY8gT8VYxyVg6af53OZ4uSx75Z6rpkJOzORzzWSXn+3GQYHI6NCXGoHiw+ThSQSldxxjZ2qLeUTGJfL7Tj8Q05KXanI+jZ8pppu70rU2oOf1g+4/iVtqD1drbDs5wbqeP+RiSC7VVjoqJiIKWNBH6iE3WsnmVmBxIlx5NYWKOUqEcNTQYGaOYNH05i1wyPnNJsoRXMXEeYpK+akx4Z0TVMHWciM7c3McF2u+myt84TvhyKJLpMJ8cfpdPhJC8cVPT1vX3F/mkesgnt1eJSc7LsebhZOq6I5SW91DcHlRkV3/dunMkXnWJmBgxnym/qU8EseJsRkG520m+kHaUHhaXelSflLI+ubKmF6pPePXY3kqfj4q2jj3zMX7lRa1hdOl1FJSaRuYieR/0AV0dy8P/OnVsxHOsJdLnvH+NIrRdXfFn1mSQFpp7LUP48ctnQ1Ws8uVr2z7xFSwPXQa5/amudFHbi3Ys3x+fixMduOOw72Xcj6rx9OnpZ8Ds4bl4wYr7F3ouNhydLBx5WYEa5MfujQdbnSqPV/B1rCfahgbvFHs6JqV+mRbF8kEysfrVeMZexz3dnio5aI8OHWVTFctF4xL3YzvtgvLp86TQtPOZd/a+et2kY9L0W6aMU9GPj9pyZKravNbLx7VNVRAGDjl113IvyAnCpcfeB87JzcIwITcf/njw2Hc3vmCy1f5KVIRhRLoEWotXv2Fm0UPR82S7ZeQnS97bfZD4UcArqlPaHJNNfkPdBCrkufNc+Ml2MEt2WfNX6ZfhBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgH/LT3k9Mtug7gt+AAAAAElFTkSuQmCC"
+                  alt="" style="user-select: none" />
+                <p class="d-flex">
+                  <strong>▲</strong> Author Guy de Maupassant
+                </p>
+              </div>
+              <div class="divider"></div>
+
+              <!-- icon-head-text-box with list -->
+              <h3 class="p-sm txt-grey">icon-head-text-box with list</h3>
+              <p class="icon-head-text-box font-10pt-doublepage Avenir-SemiBold">
+                <span class="heading-icon">
+                  <img src="./images/group-chat-hyperlink.svg" alt="" class="svgIcon" /></span>
+                Plan your talk.
+              </p>
+              <div class="customUl font-10pt-doublepage">
+                <ul>
+                  <li>SPEAKING STRATEGY Use Structure</li>
+                  <li>Consider the key points of your topic.</li>
+                  <li>Organize and classify your information.</li>
+                  <li>
+                    Use descriptive details to express feelings and ideas.
+                  </li>
+                  <li>Anticipate your audience’s reaction and address it.</li>
+                  <li>Practice your talk and record it.</li>
+                </ul>
+              </div>
+
+              <!-- icon-with-text-wrapper li with img + inspact box -->
+              <h3 class="p-sm txt-grey">
+                icon-with-text-wrapper li with img + inspact box
+              </h3>
+              <div class="icon-with-text-wrapper">
+                <span class="heading-icon">
+                  <img src="../../../images/partner-chat-hyperlink.svg" alt="" class="svgIcon partner-chat-icon" />
+                </span>
+                <div class="content font-10pt-doublepage Avenir-Medium">
+                  <strong class="clr-txt Avenir-Bold font-10pt-doublepage">
+                    B</strong>
+                  <div class="para-box">
+                    <span> Plan your talk. </span>
+                    <div class="small-inspect-box">
+                      <span class="inspectIcon">
+                        <img src="../../../images/ inspect-the-text.svg" />
+                      </span>
+                      <div class="inspect-txtBox">Inspect the Text</div>
+                    </div>
+                    <ol type="1">
+                      <li>SPEAKING STRATEGY Use Structure</li>
+                      <li>Consider the key points of your topic.</li>
+                      <li>Organize and classify your information.</li>
+                      <li>
+                        Use descriptive details to express feelings and ideas.
+                      </li>
+                      <li>
+                        Anticipate your audience’s reaction and address it.
+                      </li>
+                      <li>Practice your talk and record it.</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+
+              <!-- icon-with-text-wrapper -->
+              <h3 class="p-sm txt-grey">icon-with-text-wrapper</h3>
+              <div class="icon-with-text-wrapper">
+                <span class="heading-icon">
+                  <img src="../../../images/mouse-hyperlink.svg" alt="" class="svgIcon mouse-icon" />
+                </span>
+                <div class="content font-10pt-doublepage Avenir-Medium">
+                  <strong class="clr-txt Avenir-Bold font-10pt-doublepage">C
+                  </strong>
+                  <div class="para-box">
+                    <span>
+                      Listen to the recording of your talk. Score your
+                      performance according to the rubric.
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- icon-with-text-wrapper with list-->
+              <h3 class="p-sm txt-grey">icon-with-text-wrapper with list</h3>
+              <div class="icon-with-text-wrapper">
+                <span class="heading-icon">
+                  <img src="../../../images/partner-chat-hyperlink.svg" alt="" class="svgIcon partner-chat-icon" />
+                </span>
+                <div class="content font-10pt-doublepage Avenir-Medium">
+                  <strong class="clr-txt Avenir-Bold font-10pt-doublepage">
+                    B</strong>
+                  <div class="para-box">
+                    <span> Plan your talk. </span>
+                    <ul>
+                      <li>SPEAKING STRATEGY Use Structure</li>
+                      <li>• Consider the key points of your topic.</li>
+                      <li>• Organize and classify your information.</li>
+                      <li>
+                        • Use descriptive details to express feelings and
+                        ideas.
+                      </li>
+                      <li>
+                        • Anticipate your audience’s reaction and address it.
+                      </li>
+                      <li>• Practice your talk and record it.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- * glossary-area -->
+              <h3 class="p-sm txt-grey">glossary-area</h3>
+              <div class="glossary-com ps-2 ms-sd-1-5-min">
+                <h2 class="Galliard-Bold"><span class>GLOSSARY</span></h2>
+                <div class="contentBox Galliard-Medium">
+                  <p>
+                    <strong>devastated </strong><em> (adj) </em> extremely
+                    upset
+                  </p>
+                  <p>
+                    <span class="glossary-target-icon pe-0 ms-2-min">
+                      <img src="../../../images/glossary-target-icon.webp" alt="" />
+                    </span>
+                    <strong>retrace </strong><em> (v) </em> extremely upset
+                  </p>
+                  <p>
+                    <span class="idiom">IDIOM </span>
+                    <strong> glimmer of hope</strong><em> (n) </em> extremely
+                    upset
+                  </p>
+                </div>
+              </div>
+
+              <!-- * gener-box -->
+              <h3 class="p-sm txt-grey">gener-box</h3>
+              <div class="gener-box font-11pt-doublepage Avenir-Medium">
+                <p class="genre-box-title font-13pt-doublepage">
+                  <strong class="Avenir-Bold">Genre</strong> Infographic
+                </p>
+                <p>
+                  <strong>Infographics</strong> are visuals that represent
+                  information graphically. Infographics:
+                </p>
+                <div class="customUl my-sm font-10pt-doublepage">
+                  <ul class="unordered-list1 m-0 ps-2">
+                    <li>present facts clearly</li>
+                    <li>present information quickly</li>
+                    <li>use patterns of data to reinforce understanding</li>
+                    <li>try to engage readers’ interest</li>
+                    <li>may use charts and graphs to present data</li>
+                  </ul>
+                </div>
+                <p>The purpose of an infographic is to inform.</p>
+              </div>
+              <!-- reading-purposr -->
+              <p class="reading py-sm">
+                <strong class="clr-txt Avenir-Bold">PURPOSE FOR READING</strong>
+                PURPOSE FOR READING As you read, notice each poem’s structure,
+                including rhythm and rhyme.
+              </p>
+            </div>
+            <div class="sideBar">
+              <!-- wordtouse -->
+              <h3 class="p-sm txt-grey">wordtouse</h3>
+              <div class="wordArea font-10pt-doublepage">
+                <h2 class="ps-1-5">Words to Use</h2>
+                <ul class="font-10pt-doublepage">
+                  <li><strong>adaptable:</strong> able to change</li>
+                  <li><strong>committed:</strong> dedicated, vowed</li>
+                  <li><strong>former:</strong> thing that came before</li>
+                  <li><strong>intense:</strong> focused, energetic</li>
+                  <li><strong>moral:</strong> lesson</li>
+                </ul>
+              </div>
+
+              <!-- acadmic vocabulary -->
+              <h3 class="p-sm txt-grey">acadmic vocabulary</h3>
+              <div class="academic-Vocabulary">
+                <img src="../../../images/mouse-hyperlink.svg" alt="" class="mouse-icon" />
+                <div class="cnt-area">
+                  <h2 class="Avenir-Bold">Academic Vocabulary</h2>
+                  <h3 class="Avenir-Medium">
+                    <span class="Avenir-Black"> context</span> <em> (n)</em>
+                  </h3>
+                  <div class="tableSection">
+                    <div class="tbl-row">
+                      <div class="left-col">definition</div>
+                      <div class="right-col"></div>
+                    </div>
+                    <div class="tbl-row">
+                      <div class="left-col">example</div>
+                      <div class="right-col"></div>
+                    </div>
+                    <div class="tbl-row">
+                      <div class="left-col">synonyms</div>
+                      <div class="right-col"></div>
+                    </div>
+                    <div class="tbl-row">
+                      <div class="left-col">antonyms</div>
+                      <div class="right-col"></div>
+                    </div>
+                    <div class="tbl-row">
+                      <div class="left-col">forms</div>
+                      <div class="right-col"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- analyze-comp -->
+              <h3 class="p-sm txt-grey">analyze-comp</h3>
+              <div class="analyze-comp">
+                <h2 class="Avenir-Bold">Analyze Plot</h2>
+                <p>
+                  <strong>¶ 63–69</strong> What part of the plot are the
+                  events in these paragraphs: rising action, climax, or
+                  resolution? Justify your answer.
+                </p>
+              </div>
+              <div class="divider"></div>
+
+              <!-- reading-strategy -->
+              <h3 class="p-sm txt-grey">reading-strategy</h3>
+              <div class="reading-strategy">
+                <h2 class="Avenir-Bold font-10pt-doublepage">
+                  READING STRATEGY <br /><span>
+                    Use Real-World Knowledge
+                  </span>
+                </h2>
+                <div class="inner">
+                  <p class="font-9pt-doublepage">
+                    As you listen, use your own knowledge of the real world to
+                    deepen your understanding of the topic. Think about what
+                    you know and what you have learned about the topic in the
+                    past. Connect the details of the talk to the details of
+                    your everyday life. When the details connect to your own
+                    life, the topic may become more understandable and
+                    important to you.
+                  </p>
+                </div>
+              </div>
+              <div class="divider"></div>
+
+              <!-- tipsArea -->
+              <h3 class="p-sm txt-grey">tipsArea</h3>
+              <div class="tipsArea font-10pt-doublepage">
+                <h2>Tip!</h2>
+                <span class="Avenir-Bold font-9pt-doublepage"> Grammar</span>
+                <p class="Avenir-Medium font-9pt-doublepage">
+                  Search “past participle of verb” online to find the form of
+                  an irregular verb.
+                </p>
+                <ul></ul>
+              </div>
+              <div class="divider"></div>
+
+              <!-- grammer context -->
+              <h3 class="p-sm txt-grey">grammer context</h3>
+              <div class="reading-strategy grammer">
+                <h2>
+                  <span class="Avenir-Bold font-10pt-doublepage">
+                    Grammar in Context
+                  </span>
+                </h2>
+                <div class="inner">
+                  <p class="font-9pt-doublepage">
+                    <strong> ¶ 1, 4</strong> Look at the first sentences in
+                    these paragraphs. What is the subject of each sentence?
+                    What is the verb? Is the verb singular or plural? Why?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer -->
+        <footer class="left-page-footer" id="page_28">
+          <p>
+            <span class="page-number Avenir-Medium font-12pt-doublepage">
+              28
+            </span>
+            <strong class="page-unit Avenir-Medium font-9pt-doublepage">Unit 1
+            </strong>
+          </p>
+        </footer>
+      </article>
+      <article data-page-num="3" class="page3">
+        <div class="screen-reader-only" aria-label="3"></div>
+        <!-- pageHeader-Right  -->
+        <header class="pageHeader-Right">
+          <div class="innerContainer">
+            <h2 class="font-15pt-doublepage Avenir-Bold">BEFORE YOU READ</h2>
+          </div>
+        </header>
+
+        <div class="comp-box right-page-content Avenir-Medium font-10pt-doublepage">
+          <div class="custom-row row-1">
+            <div class="col-left">
+              <!-- explore-box -->
+              <h3 class="p-sm txt-grey">explore-box</h3>
+              <div class="explore-comp">
+                <div class="icon-box">
+                  <img src="../../../images/sync-reading-hyperlink-stack.svg" alt="" />
+                </div>
+                <div class="txt-box Avenir-Medium">
+                  <div class="para-box">
+                    <h3 class="Avenir-Bold font-16pt-doublepage">
+                      Exploring Pathways: Social Media Marketing Coordinator
+                    </h3>
+                    <p class="font-11pt-doublepage">
+                      Marketing is a profession that offers many opportunities
+                      for employment. A social media marketing coordinator is
+                      responsible for developing advertising campaigns for
+                      their company (brand). The role requires creativity and
+                      skill in business management.
+                    </p>
+                  </div>
+                  <div class="img-box">
+                    <img
+                      src="data:image.webp;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAhFBMVEUAAAD///8lJSV/f3+SkpL09PTx8fHm5ub39/ft7e3Z2dmsrKylpaXLy8tfX1/8/PzU1NScnJy4uLhUVFTCwsKysrIbGxtBQUGLi4ssLCy8vLxnZ2d0dHRNTU3g4OBZWVk1NTVFRUUzMzMPDw+NjY1lZWV4eHiDg4MgICCWlpYUFBROTk4IfdW+AAAESklEQVR4nO3YaZeiOhAGYAplB1ld0BaxXbp1/v//G0IgKbDnzOXc6aMz532+iAGRFEmlwDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgnzUrHNuJwrVquGSVW2137BAzSCwvuk0/t5nl+sspjWwvSvn+j8Kx/Gw9/tmT7SyK0lu69OguG1YV+eEt9Mkx+2NCsoNbuiV6m3p2h2Zq+0zu8pZmMW36ln3736FHxf/qwp/2RsWn3Fqf5KdnyVu7d93umIDmciOaGpSAdEzmFMqNZR+UI1VldxHJ5Av/Pmtajloy6kdyTdv280Jq0iTWasrZd/SmYlLrfyqobj99r29502Pn+SJ71GD2d7ORUi0+fEe1rPsR8598NudSMSlivUOGZ0c6ZT1cx/PsaTdqSYl9IZEPS/rQLUk14eyR14S4jwmLtZFZ3W5lQYsJJ/5WqTtu8fnMjsQI2dC7brlSqb/kZ3bsO+uzdGuOVTHZ0Z79sI1AzH9hZ5Mu/BtVbcJf1eWpb4kDtjuwmvatxVpyfj/npINixs4o1exFOFRMBuPPFEOvHCRs/1Wy7MmeG6vUcYnsQva1HCSMmci3g+nyHvP9Z3W0GVcnY8gT8VYxyVg6af53OZ4uSx75Z6rpkJOzORzzWSXn+3GQYHI6NCXGoHiw+ThSQSldxxjZ2qLeUTGJfL7Tj8Q05KXanI+jZ8pppu70rU2oOf1g+4/iVtqD1drbDs5wbqeP+RiSC7VVjoqJiIKWNBH6iE3WsnmVmBxIlx5NYWKOUqEcNTQYGaOYNH05i1wyPnNJsoRXMXEeYpK+akx4Z0TVMHWciM7c3McF2u+myt84TvhyKJLpMJ8cfpdPhJC8cVPT1vX3F/mkesgnt1eJSc7LsebhZOq6I5SW91DcHlRkV3/dunMkXnWJmBgxnym/qU8EseJsRkG520m+kHaUHhaXelSflLI+ubKmF6pPePXY3kqfj4q2jj3zMX7lRa1hdOl1FJSaRuYieR/0AV0dy8P/OnVsxHOsJdLnvH+NIrRdXfFn1mSQFpp7LUP48ctnQ1Ws8uVr2z7xFSwPXQa5/amudFHbi3Ys3x+fixMduOOw72Xcj6rx9OnpZ8Ds4bl4wYr7F3ouNhydLBx5WYEa5MfujQdbnSqPV/B1rCfahgbvFHs6JqV+mRbF8kEysfrVeMZexz3dnio5aI8OHWVTFctF4xL3YzvtgvLp86TQtPOZd/a+et2kY9L0W6aMU9GPj9pyZKravNbLx7VNVRAGDjl113IvyAnCpcfeB87JzcIwITcf/njw2Hc3vmCy1f5KVIRhRLoEWotXv2Fm0UPR82S7ZeQnS97bfZD4UcArqlPaHJNNfkPdBCrkufNc+Ml2MEt2WfNX6ZfhBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgH/LT3k9Mtug7gt+AAAAAElFTkSuQmCC"
+                      alt="" style="user-select: none" />
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+
+              <!-- preview-box -->
+              <h3 class="p-sm txt-grey">preview-comp</h3>
+              <div class="preview-comp">
+                <div class="heading-icon-with-text">
+                  <img src="./images/group-chat-hyperlink.svg" alt="" srcset="" class="svgIcon" />
+                  <div class="text-wrapper font-10pt-doublepage Avenir-Medium">
+                    <h3 class="preview-heading font-16pt-doublepage Avenir-Bold">
+                      Preview
+                    </h3>
+                    <ol type="1">
+                      <li>
+                        <strong></strong> Read the poems’ titles and look at
+                        the images. What is the topic of each poem?
+                      </li>
+                      <li>
+                        <strong>Skim</strong> Look quickly at the bios. What
+                        did you learn about the poets?
+                      </li>
+                      <li>
+                        <strong>Predict</strong> What is the main idea of each
+                        poem?
+                      </li>
+                    </ol>
+                    <p>
+                      <strong class="clr-txt">PURPOSE FOR READING</strong>
+                      PURPOSE FOR READING As you read, notice each poem’s
+                      structure, including rhythm and rhyme.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+
+              <!-- target-icon-vocab-sec -->
+              <h3 class="p-sm txt-grey">target-icon-vocab-sec</h3>
+              <div class="target-icon-vocab-sec">
+                <div class="target-icon">
+                  <img src="../../../images/target-icon.webp" alt="" />
+                </div>
+                <div class="target-vocab">
+                  <h2 class="Avenir-Bold font-12pt-doublepage">
+                    Target <br />
+                    Vocabulary
+                  </h2>
+                  <ul class="Avenir-Medium font-10pt-doublepage">
+                    <li><strong>AI </strong></li>
+                    <li><strong> monitored </strong></li>
+                    <li><strong> physiological </strong></li>
+                    <li><strong> pupils </strong></li>
+                    <li><strong> subject</strong></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="divider"></div>
+
+              <!-- articleSection -->
+              <h3 class="p-sm txt-grey">articleSection</h3>
+              <div class="articleSection">
+                <div class="small-heading-icon-comp">
+                  <span class="heading-icon">
+                    <img src="../../../images/sync-reading-hyperlink.svg" alt="" class="svgIcon stackIcon" />
+                  </span>
+                  <strong class="pointBox font-11pt-doublepage Avenir-Bold">A</strong>
+                  <div class="heading-txt">
+                    <p>Read the article.</p>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="indentTextArea Galliard-Medium">
+                  <h3 class="font-18pt-doublepage">
+                    Finding Solutions for the Blind
+                  </h3>
+                  <div class="text-num-box">
+                    <span class="paranum Avenir-Regular font-11pt-doublepage">1</span>
+                    <p class="paratext font-14pt-doublepage">
+                      In 1824, Louis Braille began to work on a writing system
+                      that would allow the blind to read. He was just 15 years
+                      old.
+                    </p>
+                  </div>
+                  <div class="text-num-box">
+                    <span class="paranum Avenir-Regular font-11pt-doublepage">2</span>
+                    <p class="paratext font-14pt-doublepage">
+                      At the time, he was studying at a school for the blind
+                      in Paris, France. In his classes, teachers were using
+                      books with an older ineffective writing system. The
+                      system he developed, called Braille, is now the
+                      standard.
+                    </p>
+                  </div>
+                  <div class="text-num-box">
+                    <span class="paranum Avenir-Regular font-11pt-doublepage">3</span>
+                    <p class="paratext font-14pt-doublepage">
+                      Schools today are using Braille, and all over the world
+                      Louis Braille’s work is benefiting the blind. At the
+                      same time, people are developing new technologies to
+                      further improve life for visually impaired people. Many
+                      people believe that in the future we all will be
+                      communicating in new ways.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+
+              <!-- research -->
+              <h3 class="p-sm txt-grey">research</h3>
+              <div class="research-icon">
+                <div class="small-heading-icon-comp">
+                  <span class="heading-icon">
+                    <img src="../../../images/mouse-hyperlink.svg" alt="" class="mouse-icon" />
+                  </span>
+                  <div class="heading-txt">
+                    <h2><strong class="Avenir-Bold">Research</strong></h2>
+                    <p>
+                      Digital, content, and product marketing are other ways
+                      used to sell products. Choose one and research how
+                      marketers apply the method to influence sales.
+                    </p>
+                    <div class="research-icon-search-box d-flex flex-sm-row">
+                      <div class="research-icon-search-box-img">
+                        <img src="../../../images/research-box-search-icon.webp" alt="" />
+                      </div>
+                      <div class="research-icon-search-box-text">
+                        <strong class="Avenir-Bold">
+                          marketing methods
+                        </strong>
+                      </div>
+                    </div>
+                    <ol type="1" class="ol-list">
+                      <li>Which method did you research?</li>
+                      <li>How does the method increase sales? Explain.</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+
+              <!-- table-box -->
+              <h3 class="p-sm txt-grey">table-box</h3>
+              <div class="table-box">
+                <div class="inner-box">
+                  <h2 class="Avenir-Black font-14pt-doublepage">
+                    Oral Presentation Rubric
+                  </h2>
+                  <div class="list-row">
+                    <div class="list-item">
+                      <h3 class="font-11pt-doublepage Avenir-Light">
+                        Content &amp; Organization
+                      </h3>
+                      <ul>
+                        <li>demonstrates full knowledge of the topic</li>
+                        <li>uses structure</li>
+                      </ul>
+                    </div>
+                    <div class="list-item">
+                      <h3 class="font-11pt-doublepage Avenir-Light">
+                        Language Conventions
+                      </h3>
+                      <ul>
+                        <li>few to no grammatical errors</li>
+                        <li>meaning is clear</li>
+                      </ul>
+                    </div>
+                    <div class="list-item">
+                      <h3 class="font-11pt-doublepage Avenir-Light">
+                        Vocabulary
+                      </h3>
+                      <ul>
+                        <li>uses descriptive details</li>
+                        <li>uses academic vocabulary</li>
+                      </ul>
+                    </div>
+                    <div class="list-item">
+                      <h3 class="font-11pt-doublepage Avenir-Light">
+                        Presentation &amp; Delivery
+                      </h3>
+                      <ul>
+                        <li>uses an informal tone</li>
+                        <li>
+                          free of pronunciation errors that interfere with
+                          understanding
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+
+              <!-- bookTrailer -->
+              <h3 class="p-sm txt-grey">bookTrailer</h3>
+              <div class="bookTrailer">
+                <div class="mt-1 fs-md-125 d-flex">
+                  <div class="box-1">
+                    <div class="box-1-header">
+                      <div class="main-heading-comp pt-1">
+                        <div class="iconBox">
+                          <img id="p35-SyDL6owO" src="../../../images/video-hyperlink-white.svg"
+                            class="svgIcon bulbIcon" />
+                        </div>
+                        <div class="content-area">
+                          <div class="headBar">
+                            <h2 class="Avenir-Bold">Book Trailer</h2>
+                          </div>
+                        </div>
+                      </div>
+                      <p class="Avenir-Bold font-11pt-doublepage">
+                        Watch the book trailer for “The Necklace.”
+                      </p>
+                    </div>
+                    <div class="box-1-body">
+                      <img src="https://dummyimage.com/600x400/000/fff.webp&text=dummy+img" alt="" />
+                    </div>
+                  </div>
+                  <div class="box-2">
+                    <div class="box-2-header">
+                      <div class="main-heading-comp pt-sm text-nowrap">
+                        <div class="iconBox">
+                          <img id="p35-grlNNiOG" src="../../../images/video-chat-hyperlink-white.svg"
+                            class="svgIcon bulbIcon" />
+                        </div>
+                        <div class="content-area">
+                          <div class="headBar">
+                            <h2 class="Avenir-Bold">React to the Trailer</h2>
+                          </div>
+                        </div>
+                      </div>
+                      <p class="Avenir-Regular font-11pt-doublepage">
+                        Watch the video. Answer the questions.
+                      </p>
+                    </div>
+                    <div class="box-2-body Avenir-Bold font-11pt-doublepage">
+                      <p>
+                        <span class="exclamation-style">&ldquo;</span> I learned that this story was
+                        written a long time ago. But I’m in suspense. I wonder
+                        what happens at the ball. I wonder if the necklace
+                        turns her dreams into reality. What do you think
+                        happens?
+                        <span class="exclamation-style">&rdquo;</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+            </div>
+            <div class="sideBar">
+              <!-- inspect the text -->
+              <h3 class="p-sm txt-grey">inspect the text</h3>
+              <div class="inspect-text-box">
+                <div class="inspect-icon-head-text">
+                  <div class="inspect-icon">
+                    <img src="../../../images/inspect-the-text-hyperlink.svg" />
+                  </div>
+                  <div class="inspect-head-text">
+                    <h3>Inspect the Text</h3>
+                  </div>
+                </div>
+                <ol type="1">
+                  <li>
+                    <strong>Comprehension</strong> <b> Lines 7–13</b> How much
+                    does a space flight cost, according to the speaker?
+                  </li>
+                  <li>
+                    <strong>Analyze characters</strong> <b>Lines 7–16</b> Find
+                    the line that shows who is “making business plans for
+                    space.”
+                  </li>
+                  <li>
+                    <strong>Analyze theme</strong> What is a theme in this
+                    poem? Think about the main message. Think about how the
+                    author feels about space exploration.
+                  </li>
+                </ol>
+              </div>
+              <div class="divider"></div>
+
+              <!-- noteComp -->
+              <h3 class="p-sm txt-grey">noteComp</h3>
+              <div class="noteComp">
+                <div class="iconBox">
+                  <img src="../../../images/notebook-hyperlink.svg" alt="" data-html-ele-ref="p29-eHTe95xT" />
+                </div>
+                <div class="contentBox">
+                  <h2 class="font-13pt-doublepage Avenir-Black">Note It!</h2>
+                  <p>
+                    Each poet gives their perception of materialism in their
+                    own words. What are three topics you want to share your
+                    perceptions on? (for example: love, nature, music)
+                  </p>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <!-- analyze-comp-colored -->
+              <h3 class="p-sm txt-grey">analyze-comp-colored</h3>
+              <div class="analyze-comp">
+                <h2 class="Avenir-Bold">
+                  <div class="w-clr">
+                    Annotation: <br />
+                    Ask Questions
+                  </div>
+                </h2>
+                <p><strong></strong>How old is the narrator?</p>
+              </div>
+              <div class="divider"></div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="right-page-footer" id="page_29">
+          <p>
+            <span class="page-number Avenir-Medium font-12pt-doublepage">29
+            </span>
+            <strong class="page-unit Avenir-Medium font-9pt-doublepage defaultTxt">Choices and Pathways
+            </strong>
+          </p>
+        </footer>
+      </article>
+    </div>
+  </main>
+</body>
+
+</html>
